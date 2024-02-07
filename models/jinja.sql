@@ -19,10 +19,10 @@
 
 --{% set temperature = 60.0 %} 
 
-On a day like this, I especially like
+--On a day like this, I especially like
 
-{% if temperature > 70.0 %} 
-a refreshing mango sorbet. 
-{% else %} 
-A decadent chocolate ice cream. 
-{% endif %}
+----{% if temperature > 70.0 %} 
+--a refreshing mango sorbet. 
+--{% else %} 
+--A decadent chocolate ice cream. 
+--{% endif %}
