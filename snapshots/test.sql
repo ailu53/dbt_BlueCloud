@@ -7,10 +7,10 @@
       unique_key='id',
 
       strategy='timestamp',
-      updated_at='updated_at',
+      updated_at='_ETL_LOADED_AT',
     )
 }}
 
-select * from {{ source('jaffle_shop', 'status') }}
+select * from {{ source('jaffle_shop', 'orders') }}
 
 {% endsnapshot %}
